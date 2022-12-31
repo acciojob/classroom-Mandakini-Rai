@@ -11,7 +11,7 @@ public class Teacher {
     public Teacher() {
 
     }
-    private Teacher(String name,int numberOfStudents ,int age){
+    public Teacher(String name,int numberOfStudents ,int age){
         this.name = name;
         this.numberOfStudents = numberOfStudents;
         this.age = age;
